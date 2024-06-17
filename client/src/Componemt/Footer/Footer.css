@@ -1,0 +1,82 @@
+.App {
+    text-align: center;
+  }
+  
+  .footer {
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    margin: 10px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p,
+  .footer-section ul,
+  .footer-section li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .logo {
+    width: 150px;
+    align-items: flex-start;
+  }
+  
+  .contacts i,
+  .social-icons i {
+    margin-right: 8px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-icons i {
+    font-size: 24px;
+    margin: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .logo {
+      width: 100px;
+    }
+  
+    .footer-section h2 {
+      font-size: 16px;
+    }
+  
+    .footer-section p,
+    .footer-section ul,
+    .footer-section li {
+      font-size: 12px;
+    }
+  
+    .social-icons i {
+      font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+p {
+  color: #666;
+  font-size: 0.9em;
+}
+.mind-p{
+    height: auto;
+    width: 500px;
+}
+.get-started-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}

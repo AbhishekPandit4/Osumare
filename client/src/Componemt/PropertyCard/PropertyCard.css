@@ -1,0 +1,41 @@
+/* src/PropertyCard.css */
+.property-card {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.property-card-image img {
+    width: 500px;
+    height: auto;
+}
+
+.property-card-content {
+    margin-left: 20px;
+}
+
+.property-card-content h2 {
+    color: #023e8a;
+}
+
+.property-card-content p {
+    color: #6c757d;
+    margin: 10px 0;
+}
+
+.get-started-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
